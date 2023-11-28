@@ -111,7 +111,7 @@ b, strong {
   display: inline-block;
   vertical-align: top;
   margin-top: 5px;
-  min-width: 260px;
+  min-width: 500px;
   position: relative;
 }
 
@@ -120,7 +120,7 @@ b, strong {
 }
 
 .animated-item {
-  font-size: 38px;
+  font-size: 40px;
   line-height: inherit;
   display: block;
   opacity: 0;
@@ -137,6 +137,20 @@ b, strong {
 .animated-item:nth-child(3n+3) {
   animation-delay: 4s;
 }
+
+body {
+  font-family: sans-serif;
+  margin: 50px 50px 200px;
+  line-height: 1.3;
+  padding-bottom: 100px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+  
 
 @keyframes BottomTotop {
   0% {
@@ -568,3 +582,4 @@ b, strong {
     vertical-align: top;
   }
 }
+
